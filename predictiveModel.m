@@ -1,7 +1,7 @@
 function [ model, raw_data ] = varPredictiveModel( varargin )
-%PREDICTIVEMODEL Perform Kalman Filter on 5 time series of 3D points
-%   Input initial set of points and 4 other time series evolutions, this
-%   function performs a Kalman Filter on each point, dimension at a time.
+%PREDICTIVEMODEL Perform Kalman Filter on a time series of nth dimensional points
+%   Input initial set of nth dimensional points time series evolutions, this
+%   function performs a Kalman Filter on each point, one dimension at a time.
 %   Assumes input argument maintains row correspondence for each point.
 %   Outputs model n x 3 matrix containing last recursive Kalman Filter
 %   iteration and raw_data n x 3 cell array containing all Filter outputs
