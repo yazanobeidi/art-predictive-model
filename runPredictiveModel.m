@@ -10,8 +10,7 @@ frac_two = frac_one * .80 + rand(1);
 frac_three = frac_two * 1.10 - rand(1);
 frac_four = frac_three - frac_two + frac_one;
 
-%[model, raw_data] = predictiveModel(initial_scan, frac_one, frac_two, frac_three, frac_four);
-% predictiveModel takes up to 11 arguments
+[model, raw_data] = predictiveModel(initial_scan, frac_one, frac_two, frac_three, frac_four);
 
 scatter3(initial_scan(:,1),initial_scan(:,2),initial_scan(:,3),'filled','r')
 hold on
