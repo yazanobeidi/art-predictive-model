@@ -20,8 +20,8 @@ Logic:
   
 Algorithm: {
 
-  output_n_d = kalman(Tn(Pn,Dd)) 
+  output_n_d = kalman(Tn(Pn,Dd));
 
-  model(n,d) = output_n_d(end) where model is a set of n points, for all n, d > 0
+  model(n,d) = output_n_d(end); where model is a set of n points, for all n, d > 0
 
 }
