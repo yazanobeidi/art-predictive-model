@@ -12,6 +12,9 @@ Runtime example can be executed with runPredictiveModel script from command.
 Example scenario is currently a cube shifting over 5 'samples', will be updated
 with something more interesting in the near future.
 
+This algorithm was designed as part of adaptive radiation therapy for clinical
+target volume determination. 
+
 Logic:
 * let Pn = (xn,yn,zn) for all n > 0
 * let Fm = [Pn] for all m > 0
@@ -25,3 +28,5 @@ Algorithm: {
   model(n,d) = output_n_d(end); where model is a set of n points, for all n, d > 0
 
 }
+
+All rights reserved.
