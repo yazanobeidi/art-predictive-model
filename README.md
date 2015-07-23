@@ -13,12 +13,15 @@ Example scenario is currently a cube shifting over 5 'samples', will be updated
 with something more interesting in the near future.
 
 Logic:
-  let Pn = (xn,yn,zn) for all n > 0
-  let Fm = [Pn] for all m > 0
-  Fm = F(m-1) +- delta
-  Define Tn(Pn,Dd) = [F0(P0,D0); F1(P1,D1) ... Fm(Pn,Dn)] for all DdCPn, d > 0
+* let Pn = (xn,yn,zn) for all n > 0
+* let Fm = [Pn] for all m > 0
+* Fm = F(m-1) +- delta
+* Define Tn(Pn,Dd) = [F0(P0,D0); F1(P1,D1) ... Fm(Pn,Dn)] for all DdCPn, d > 0
   
 Algorithm: {
-  output_n_d = kalman(Tn(Pn,Dd))
+
+  output_n_d = kalman(Tn(Pn,Dd)) 
+
   model(n,d) = output_n_d(end) where model is a set of n points, for all n, d > 0
-  }
+
+}
