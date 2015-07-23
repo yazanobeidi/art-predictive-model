@@ -29,4 +29,4 @@ Algorithm: {
 
 }
 
-All rights reserved.
+Copyright 2015 Yazan Obeidi
