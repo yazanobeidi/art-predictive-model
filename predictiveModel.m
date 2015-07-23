@@ -18,10 +18,10 @@ function [ model, raw_data ] = predictiveModel( varargin )
 %PREDICTIVEMODEL Perform Kalman Filter on a time series of nth dimensional points
 %   Given a variable input of a time series set of nth dimensional points, this
 %   function performs a Kalman Filter on each point, one dimension at a time.
-% 	Can handle any amount of inputs. Assumes input argument maintains row 
-%	correspondence for each point. Outputs model n x 3 matrix containing last 
-%	recursive Kalman Filter iteration and raw_data n x 3 cell array containing all 
-%	Filter outputs.
+%   Can handle any amount of inputs. Assumes input argument maintains row 
+%   correspondence for each point. Outputs model n x 3 matrix containing last 
+%   recursive Kalman Filter iteration and raw_data n x 3 cell array containing all 
+%   Filter outputs.
 %
 %   Logic:
 %   let Pn = (xn,yn,zn) for all n > 0
@@ -56,10 +56,10 @@ for Pn = 1:n % For all points
         % Define time series T(Pn,An)
         Tn_a = zeros(nargin,1);
         for i = 1:nargin % iterate through all inputs
-        	temp = varargin(i);
-        	var = temp(1,1)) % since matlab does not allow varargin(i,1)
-        	Tn_a(i,1) = var(Pn,Dd);
-		end
+            temp = varargin(i);
+            var = temp(1,1)) % since matlab does not allow varargin(i,1)
+            Tn_a(i,1) = var(Pn,Dd);
+        end
         
         % Case specific Kalman Filter variables
         output_n_d = []; % initialize results store
