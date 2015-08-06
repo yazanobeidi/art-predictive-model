@@ -1,5 +1,5 @@
 # art-predictive-model
-Predictive Model for Clinical Target Volume using the Kalman Filter in MATLAB
+Predictive Model for Clinical Target Volume using the Kalman Filter
 
 Given a variable input of a time series set of nth dimensional points, this
 function performs a Kalman Filter on each point, one dimension at a time.
