@@ -15,7 +15,8 @@ with something more interesting in the near future.
 This algorithm was designed as part of adaptive radiation therapy for clinical
 target volume determination. 
 
-Logic:
+Mathematics:
+
 ![Mathematics](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/formulasAndLogic.png?raw=true)
 
 Copyright 2015 Yazan Obeidi
