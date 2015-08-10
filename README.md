@@ -16,6 +16,6 @@ target volume determination.
 
 Mathematically:
 
-![Mathematics](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/formulasAndLogic.png?raw=true)
+![Mathematics](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/formulas.png?raw=true)
 
 Copyright 2015 Yazan Obeidi
