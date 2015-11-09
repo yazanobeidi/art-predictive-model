@@ -14,6 +14,10 @@ Runtime example can be executed with runPredictiveModel script from command.
 PYTHON:
 Place plan.roi and predModel.py in the same directory. Run predModel.py. See output.md or newartplan.roi for output. Also see comments in predModel.py to output to console. 
 
+![Output](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/PredModelImg.bmp)
+
+![Output2](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/PredModelImg2.bmp)
+
 This algorithm was designed as part of adaptive radiation therapy for clinical
 target volume determination. 
 
