@@ -18,6 +18,8 @@ Place plan.roi and predModel.py in the same directory. Run predModel.py. See out
 
 ![Output2](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/PredModelImg2.bmp)
 
+![Output3](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/PredModelImg3.bmp)
+
 This algorithm was designed as part of adaptive radiation therapy for clinical
 target volume determination. 
 
