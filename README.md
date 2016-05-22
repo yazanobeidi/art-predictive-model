@@ -37,13 +37,8 @@ target volume determination. Here are some images of it in use:
 
 ![vol3](https://raw.githubusercontent.com/yazanobeidi/art-predictive-model/master/images/predictive_model_3.jpg)
 
-
-## Disclaimer
-
-The Python code is quite un-Pythonic. I may provide an updated version some day however it does what it needs to do and I rather spend my time doing new things so probably not. So take this project for the idea rather than its current implementation. If you feel like refactoring some code feel free to create a pull request!
-
 ## License
 
 Copyright 2015, 2016 Yazan Obeidi.
 
-You may use any of this for educational purposes.
+Use for educational purposes is permitted.
